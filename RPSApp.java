@@ -69,11 +69,11 @@ public class RPSApp {
     /**
      * Check who wins
      *
-     * @param h1 the first hand sign
-     * @param h2 the second hand sign
-     * @return 0 if two signs equal, 
-     *        -1 if the second sign wins, 
-     *         1 if the first sign wins
+     * @param h1 the user's hand sign
+     * @param h2 the computer's hand sign
+     * @return Winner.DRAW if two signs equal, 
+     *         Winner.COMPUTER if the second sign wins, 
+     *         Winner.USER if the first sign wins
      *
      */
     public static Winner whoWins(HandSign h1, HandSign h2){
